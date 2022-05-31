@@ -33,6 +33,7 @@ function Section() {
 
   function idgive(key) {
     setId(key);
+    console.log(id);
   }
 
   function modal() {
@@ -49,6 +50,7 @@ function Section() {
     }
     if(page <= 1 ){
       setPage(1)
+      console.log(page)
       const reponse = await axios.get(
       `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
     );
@@ -58,6 +60,7 @@ function Section() {
       return 0;
     }
     setPage(page-1)
+    console.log(page)
     const reponse = await axios.get(
       `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
     );

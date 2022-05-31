@@ -69,6 +69,7 @@ function Modal(props) {
           <tr>
             <td>
               <div className="hidden">
+
                 <h2>
                   {props.id.branchVolumes === undefined
                     ? "대출 정보가 없습니다"

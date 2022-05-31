@@ -33,6 +33,7 @@ function Section() {
 
   function idgive(key) {
     setId(key);
+    console.log(id);
   }
 
   function modal() {

@@ -38,17 +38,12 @@
 
   .modal_img {
     width: 300px;
-    margin: 0px 15px;
+    margin: 0px 60px;
   }
 
   td {
     text-align: center;
   } 
-}
-.hidden{
-  width: 100%;
-  height: 30px;
-  overflow: hidden;
 }
 @media ( max-width: 771px ) {
   #modal_overLay{

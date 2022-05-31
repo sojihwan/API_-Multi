@@ -68,19 +68,18 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <div className="hidden">
-                <h2>
-                  {props.id.branchVolumes === undefined
-                    ? "대출 정보가 없습니다"
-                    : props.id.branchVolumes === null
-                    ? "대출 정보가 없습니다"
-                    : props.id.branchVolumes === []
-                    ? "대출 정보가 없습니다"
-                    : props.id.branchVolumes.length === 0
-                    ? "대출 정보가 없습니다"
-                    : props.id.branchVolumes[0].cState}
-                </h2>
-              </div>
+            <div className="hidden">
+              <h2>
+                {props.id.branchVolumes === undefined
+                  ? "대출 정보가 없습니다"
+                  : props.id.branchVolumes === null
+                  ? "대출 정보가 없습니다"
+                  : props.id.branchVolumes === []
+                  ? "대출 정보가 없습니다"
+                  : props.id.branchVolumes.length === 0
+                  ? "대출 정보가 없습니다"
+                  : props.id.branchVolumes[0].cState}
+              </h2>
             </td>
           </tr>
         </tbody>
