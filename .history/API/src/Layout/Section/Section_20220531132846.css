@@ -113,12 +113,11 @@
     display: inline-block;
     width: 50px;
     height: 100px;
-    margin: 4px;
     overflow: hidden;
   }
 
   .image {
-    width: 50px;
+    width: 24px;
     height: 70%;
   }
 

@@ -95,7 +95,7 @@
     position: fixed;
     top:20%;
     left: 30px;
-    width: 150px;
+    width: 100px;
   }
   h2{
     font-size: 14px;
@@ -106,7 +106,6 @@
   }
   table{
     position: absolute;
-    right: 10px;
-    top: -80px
+    
   }
 }

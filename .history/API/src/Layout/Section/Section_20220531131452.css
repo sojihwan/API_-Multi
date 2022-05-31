@@ -111,14 +111,14 @@
     border-radius: 2.5%;
     position: relative;
     display: inline-block;
-    width: 50px;
-    height: 100px;
-    margin: 4px;
+    width: 25px;
+    height: 50px;
+    margin: 25px 20px 5px 10px;
     overflow: hidden;
   }
 
   .image {
-    width: 50px;
+    width: 24px;
     height: 70%;
   }
 
@@ -140,8 +140,8 @@
     display: fixed;
     bottom: 2.5%;
     width: 50px;
-    margin: 10px -30px 10px -30px;
-    padding: 1px;
+    margin: 10px 20px 10px 0;
+    padding: 100  px;
     color: gray;
     font-weight: bolder;
     font-size: 15px;

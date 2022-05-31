@@ -20,7 +20,7 @@ header {
   font-family: 'Noto Serif KR', serif;
 }
 }
-@media ( max-width: 771px ) {
+@media ( min-width: 771px ) {
   #header * {
     box-sizing: border-box;
   }

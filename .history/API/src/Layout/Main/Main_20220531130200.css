@@ -24,7 +24,7 @@
     height: 90%;
   }
 }
-@media ( max-width: 771px ) {
+@media ( min-width: 771px ) {
   #main * {
     box-sizing: border-box;
   }
