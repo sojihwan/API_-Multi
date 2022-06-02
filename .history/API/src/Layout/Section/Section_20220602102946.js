@@ -16,7 +16,7 @@ function Section() {
         setError(null);
         setLoading(true);
         const response = await axios.get(
-          "https://library.me.go.kr/pyxis-api/1/collections/1/search?all=k%7Ca%7Clibrary"
+          "https://library.me.go.kr/pyxis-api/2/collections/2/search?all=k%7Ca%7Clibrary"
         );
         setApi(response.data);
       } catch (e) {
@@ -41,12 +41,7 @@ function Section() {
     modal.style.display = "flex";
     modal_overLay.style.display = "flex"
   }
-  function modal_close(){
-    let modal = document.getElementById("modal");
-    modal.style.display = "none";
-    let modal_overLay = document.getElementById("modal_overLay");
-    modal_overLay.style.display = "none";
-  }
+  function
   const onBef = async () => {
     const modal = document.getElementById("modal");
     if(modal.style.display === "flex"){
@@ -54,14 +49,15 @@ function Section() {
       return 0
     }
     if(page <= 1 ){
-      alert("첫패이지 입니다");
       setPage(1)
       const reponse = await axios.get(
-        `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
-        );
-        setApi(reponse.data)
-          return 0;
-        }
+      `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
+    );
+
+    setApi(reponse.data)
+      alert("첫패이지 입니다");
+      return 0;
+    }
     setPage(page-1)
     const reponse = await axios.get(
       `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`

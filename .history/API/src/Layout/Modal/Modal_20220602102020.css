@@ -127,6 +127,8 @@
     top: 10%;
     left: 50%;display: -webkit-box;
     display: -ms-flexbox;
+    
+    display:;
     margin-top:1px;
     max-height:80px;
     overflow:hidden;

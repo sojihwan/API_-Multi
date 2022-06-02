@@ -54,12 +54,13 @@ function Section() {
       return 0
     }
     if(page <= 1 ){
-      alert("첫패이지 입니다");
       setPage(1)
       const reponse = await axios.get(
         `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
         );
+        
         setApi(reponse.data)
+          alert("첫패이지 입니다");
           return 0;
         }
     setPage(page-1)

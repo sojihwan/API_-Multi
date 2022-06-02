@@ -60,7 +60,7 @@ function Section() {
         `http://library.me.go.kr/pyxis-api/1/collections/${page}/search?all=k|a|library`
         );
         setApi(reponse.data)
-          return 0;
+        return 0;
         }
     setPage(page-1)
     const reponse = await axios.get(

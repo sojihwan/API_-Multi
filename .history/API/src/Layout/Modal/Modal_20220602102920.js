@@ -44,6 +44,7 @@ function Modal(props) {
                     : props.id.branchVolumes[0].cState}
                 </h2>
     </div>
+  </div>
   );
 }
 export default Modal;
