@@ -24,7 +24,7 @@ function Modal(props) {
              
                 <h2 id="author">작가:{props.id.author}</h2>
            
-                <h2 id="publication">출판사:{props.id.publication}</h2>
+                <h2 id="publication">출판사{props.id.publication}</h2>
            
                 <h2 id="sametitle">
                   추천도서:
@@ -36,7 +36,6 @@ function Modal(props) {
                 </h2>
            
                 <h2 id="Cstate">
-                  대출정보:
                   {props.id.branchVolumes === undefined
                     ? "대출 정보가 없습니다"
                     : props.id.branchVolumes.length === 0

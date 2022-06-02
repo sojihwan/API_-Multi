@@ -51,21 +51,3 @@
   }
 }
 @media ( max-width: 376px ) {
-  #main aside:first-child {
-    border-right: thick double black;
-    position: absolute;  
-    left: 0;
-    top: 10%;
-    width: 10%;
-    height: 110%;
-  }
-
-  #main aside:nth-child(2) {
-    border-left: thick double black;
-    position: absolute;
-    right: 0;
-    top: 10%;
-    width: 10%;
-    height: 110%;
-  }
-}

@@ -19,25 +19,31 @@ function Modal(props) {
              props.id.thumbnailUrl.startsWith('http')?props.id.thumbnailUrl:'img/book.png':
              'img/book.png'} alt="" />
             
-                <h2 id="title">제목:{props.id.titleStatement}</h2>
+                <h2 id="">{props.id.titleStatement}</h2>
             
              
-                <h2 id="author">작가:{props.id.author}</h2>
+                <h2>{props.id.author}</h2>
            
-                <h2 id="publication">출판사:{props.id.publication}</h2>
+                <h2>{props.id.publication}</h2>
            
-                <h2 id="sametitle">
-                  추천도서:
+                <h2>
                   {props.id.similars === undefined
+                    ? "추천도서가 없습니다"
+                    : props.id.similars === null
+                    ? "추천도서가 없습니다"
+                    : props.id.similars === []
                     ? "추천도서가 없습니다"
                     : props.id.similars.length === 0
                     ? "추천도서가 없습니다"
                     : props.id.similars[0].titleStatement}
                 </h2>
            
-                <h2 id="Cstate">
-                  대출정보:
+                <h2>
                   {props.id.branchVolumes === undefined
+                    ? "대출 정보가 없습니다"
+                    : props.id.branchVolumes === null
+                    ? "대출 정보가 없습니다"
+                    : props.id.branchVolumes === []
                     ? "대출 정보가 없습니다"
                     : props.id.branchVolumes.length === 0
                     ? "대출 정보가 없습니다"
