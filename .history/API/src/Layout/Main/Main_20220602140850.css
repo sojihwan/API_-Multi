@@ -37,7 +37,6 @@
     position: absolute;  
     left: 0;
     top: 10%;
-    display: none;
     width: 10%;
     height: 90%;
   }
@@ -46,7 +45,6 @@
     border-left: thick double black;
     position: absolute;
     right: 0;
-    display: none;
     top: 10%;
     width: 10%;
     height: 90%;

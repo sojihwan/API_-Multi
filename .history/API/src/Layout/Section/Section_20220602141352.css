@@ -97,12 +97,10 @@
     border-radius: 5px;
     background: white;
     position: absolute;
-    left: 5%;
+    left: 10%;
     top: 13%;
     width: 90%;
     height: 80%;
-    margin-left: 0px;
-    margin-right: 0px;
     margin-top: 3.5%;
     text-align: center;
   }
@@ -112,9 +110,9 @@
     border-radius: 2.5%;
     position: relative;
     display: inline-block;
-    width: 60px;
+    width: 50px;
     height: 100px;
-    margin: 5px;
+    margin: 4px;
     overflow: hidden;
   }
 
