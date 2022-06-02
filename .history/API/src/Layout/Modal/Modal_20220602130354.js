@@ -23,7 +23,7 @@ function Modal(props) {
             </div>
             
              
-                <h2 id="author"><b>저자:</b>{props.id.author}</h2>
+                <h2 id="author"><b>작가:</b>{props.id.author}</h2>
            
                 <h2 id="publication"><b>출판사:</b>{props.id.publication}</h2>
            

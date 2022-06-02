@@ -23,7 +23,7 @@ function Modal(props) {
             </div>
             
              
-                <h2 id="author"><b>저자:</b>{props.id.author}</h2>
+                <h2 id="author"><b>작가:</b>{props.id.author}</h2>
            
                 <h2 id="publication"><b>출판사:</b>{props.id.publication}</h2>
            
@@ -37,7 +37,7 @@ function Modal(props) {
                 </h2>
            
                 <h2 id="Cstate">
-                <b>대출정보:</b>
+                  대출정보:
                   {props.id.branchVolumes === undefined
                     ? "대출 정보가 없습니다"
                     : props.id.branchVolumes.length === 0

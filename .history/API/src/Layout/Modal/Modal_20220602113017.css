@@ -11,6 +11,7 @@
     backdrop-filter: blur(1.7px);
     -webkit-backdrop-filter: blur(1.7px);
   }
+
   #modal * {
     box-sizing: border-box;
   }
@@ -26,7 +27,6 @@
     left: 25%;
     top: 20%;
     color: black;
-    overflow:hidden;
   }
 
   .close {
@@ -44,9 +44,6 @@
     position: absolute;
     top: 10%;
     left: 50%;
-    width: 50%;
-    height: 100px;
-    overflow: hidden;
   }
   #author{
     position: absolute;
@@ -129,14 +126,14 @@
     position: absolute;
     top: 10%;
     left: 50%;
+    w
     margin-top:1px;
     max-height:80px;
-    overflow:hidden;
-    vertical-align:top;
-    text-overflow: ellipsis;
-    word-break:break-all;
+    white-space: normal;
     -webkit-box-orient:vertical;
-    -webkit-line-clamp:3
+    -webkit-line-clamp:3;
+    display: -webkit-box;
+    overflow:hidden;
   }
   #author{
     position: absolute;

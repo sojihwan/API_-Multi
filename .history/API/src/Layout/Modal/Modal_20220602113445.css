@@ -11,6 +11,7 @@
     backdrop-filter: blur(1.7px);
     -webkit-backdrop-filter: blur(1.7px);
   }
+
   #modal * {
     box-sizing: border-box;
   }
@@ -44,7 +45,7 @@
     position: absolute;
     top: 10%;
     left: 50%;
-    width: 50%;
+    width: 500%;
     height: 100px;
     overflow: hidden;
   }

@@ -2,13 +2,7 @@ import React from "react";
 import "./Modal.css";
 
 function Modal(props) {
-  function modal_close() {
-    let modal = document.getElementById("modal");
-    modal.style.display = "none";
-    let modal_overLay = document.getElementById("modal_overLay");
-    modal_overLay.style.display = "none";
-  }
-
+  
   return (
     
     <div id="modal">
@@ -23,7 +17,7 @@ function Modal(props) {
             </div>
             
              
-                <h2 id="author"><b>저자:</b>{props.id.author}</h2>
+                <h2 id="author"><b>작가:</b>{props.id.author}</h2>
            
                 <h2 id="publication"><b>출판사:</b>{props.id.publication}</h2>
            
