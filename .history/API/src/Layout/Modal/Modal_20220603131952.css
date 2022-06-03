@@ -186,7 +186,7 @@
     position: fixed;
     width: 80%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5px;
     height: 30%;
   }
   h2{
@@ -195,7 +195,7 @@
   }
   #title{
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 5px;
     margin-top:1px;
     overflow:hidden;
@@ -208,23 +208,23 @@
   }
   #author{
     position: absolute;
-    top: 55%;
+    top: 450%;
     left: 5px;
   }
   #publication{
     position: absolute;
-    top:65%;
-    left: 5px;
+    top:55%;
+    left: 10%;
   }
   #sametitle{
     position: absolute;
-    top: 75%;
-    left: 5px;
+    top: 70%;
+    left: 30%;
   }
   #Cstate{
     position: absolute;
     top: 85%;
-    left: 5px;
+    left: 10%;
   }
 
 }
