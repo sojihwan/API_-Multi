@@ -114,7 +114,7 @@
     display: inline-block;
     width: 90px;
     height: 90px;
-    margin: 10px 12.5px;
+    margin: 5px;
     overflow: hidden;
   }
 
@@ -140,14 +140,13 @@
     position: fixed;
     display: fixed;
     bottom: 2.5%;
-    width: 70px;
-    height: 40px;
-    margin: -20px -95px -20px -95px;
+    width: 50px;
+    margin: 10px -30px 10px -30px;
     padding: 1px;
     color: gray;
     font-weight: bolder;
     font-size: 15px;
-    bottom: 50px;
+    bottom: 0px;
     transition: all 0.5s;
   }
 
@@ -179,9 +178,9 @@
   }
 
   #section {
-    border: 2px solid rgba(255, 255, 255, 0);
+    border: 2px solid black;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0);
+    background: white;
     position: absolute;
     left: 5%;
     margin-left: 0px;
@@ -198,10 +197,9 @@
     border-radius: 2.5%;
     position: relative;
     display: inline-block;
-    width: 90px;
-    height: 100px;
-    margin: 10px;
-    background-color: #ffffff;
+    width: 60px;
+    height: 105px;
+    margin: 4px;
     overflow: hidden;
   }
 
@@ -224,11 +222,11 @@
     border: 2.5px solid #2aecab;
     border-radius: 5px;
     background-color: white;
-    position: fixed;
+    position: absolute;
     display: fixed;
     bottom: 2.5%;
     width: 50px;
-    margin: 10px -90px 10px -90px;
+    margin: 10px -30px 10px -30px;
     padding: 1px;
     color: gray;
     font-weight: bolder;

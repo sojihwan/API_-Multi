@@ -55,12 +55,12 @@
   }
   #publication{
     position: absolute;
-    top:50%;
+    top:40%;
     left: 50%;
   }
   #sametitle{
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
   }
   #Cstate{
@@ -130,13 +130,13 @@
     top: 10%;
     left: 50%;
     margin-top:1px;
-    max-height:130px;
+    max-height:80px;
     overflow:hidden;
     vertical-align:top;
     text-overflow: ellipsis;
     word-break:break-all;
     -webkit-box-orient:vertical;
-    -webkit-line-clamp:6
+    -webkit-line-clamp:3
   }
   #author{
     position: absolute;
@@ -159,7 +159,7 @@
     left: 10%;
   }
 }
-@media ( max-width: 321px ) {
+@media ( max-width: 366px ) {
   #modal_overLay{
     position: fixed;
     top: 0px;
@@ -216,7 +216,7 @@
   #author{
     position: absolute;
     top: 40%;
-    left: 10px;
+    left: 50%;
   }
   #publication{
     position: absolute;

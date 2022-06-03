@@ -114,7 +114,7 @@
     display: inline-block;
     width: 90px;
     height: 90px;
-    margin: 10px 12.5px;
+    margin: px;
     overflow: hidden;
   }
 
@@ -142,7 +142,7 @@
     bottom: 2.5%;
     width: 70px;
     height: 40px;
-    margin: -20px -95px -20px -95px;
+    margin: 10px -90px 10px -90px;
     padding: 1px;
     color: gray;
     font-weight: bolder;
