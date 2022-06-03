@@ -43,14 +43,11 @@
   
   h2{
     text-align: left;
-    margin: 0px;
+    
   }
-  td {
-    text-align: left;
-  } 
-
-  span {
-    font-size: 25px;
+  table{
+    margin: 5px;
+    font-size: 13px;
   }
 }
 .hidden{
@@ -99,15 +96,12 @@
   .modal_img {
     position: fixed;
     width: 80%;
-    top :5px;
     margin-top: 5%;
     margin-left: 10%;
     height: 40%;
   }
-  table{
-    margin: 5px;
-  }
-  td {
+  h2{
+    font-size: 20px;
     text-align: left;
   }
   #title{

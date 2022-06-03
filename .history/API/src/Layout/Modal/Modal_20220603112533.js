@@ -11,6 +11,10 @@ function Modal(props) {
 
   return (
     <div id="modal">
+
+              <img className="modal_img" src={props.id.thumbnailUrl != null? 
+             props.id.thumbnailUrl.startsWith('http')?props.id.thumbnailUrl:'img/book.png':
+             'img/book.png'} alt="" />
       <table>
         <tbody>
           <tr>
@@ -30,7 +34,7 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <h3 id="title">
+              <h3>
                 <span>도서 제목 - </span> &nbsp;
                 {props.id.titleStatement}
               </h3>
@@ -38,7 +42,7 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <h3 id="author">
+              <h3>
                 <span>저자 - </span> &nbsp;
                 {props.id.author}
               </h3>
@@ -46,7 +50,7 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <h3 id="publication">
+              <h3>
                 <span>출판사 - </span>
                 {props.id.publication}
               </h3>
@@ -54,7 +58,7 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <h3 id="sametitle">
+              <h3>
                 <span>추천 도서 - </span> &nbsp;
                 {props.id.similars === undefined
                   ? "관련 정보가 없습니다."
@@ -66,7 +70,7 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <h3 id="Cstate">
+              <h3>
                 <span>대출 여부 - </span> &nbsp;
                 {props.id.branchVolumes === undefined
                   ? "관련 정보가 없습니다."

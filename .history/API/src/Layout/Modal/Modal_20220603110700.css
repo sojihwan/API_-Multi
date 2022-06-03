@@ -37,20 +37,39 @@
   }
 
   .modal_img {
-    width: 250px;
-    margin: 40px 40px;
+    width: 300px;
+    margin: 20px 20px;
   }
-  
+  #title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+  }
+  #author{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  }
+  #publication{
+    position: absolute;
+    top:50%;
+    left: 50%;
+  }
+  #sametitle{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
+  #Cstate{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+  }
   h2{
     text-align: left;
-    margin: 0px;
-  }
-  td {
-    text-align: left;
-  } 
-
-  span {
-    font-size: 25px;
   }
 }
 .hidden{
@@ -99,15 +118,12 @@
   .modal_img {
     position: fixed;
     width: 80%;
-    top :5px;
     margin-top: 5%;
     margin-left: 10%;
     height: 40%;
   }
-  table{
-    margin: 5px;
-  }
-  td {
+  h2{
+    font-size: 20px;
     text-align: left;
   }
   #title{
@@ -184,10 +200,10 @@
 
   .modal_img {
     position: fixed;
-    width: 50%;
-    margin-top: 5px;
-    margin-left: 5px;
-    height: 30%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 40%;
   }
   h2{
     font-size: 20px;

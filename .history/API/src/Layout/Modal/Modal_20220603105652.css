@@ -37,20 +37,39 @@
   }
 
   .modal_img {
-    width: 250px;
-    margin: 40px 40px;
+    width: 300px;
+    margin: 20px 20px;
   }
-  
+  #title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+  }
+  #author{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  }
+  #publication{
+    position: absolute;
+    top:50%;
+    left: 50%;
+  }
+  #sametitle{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+  }
+  #Cstate{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+  }
   h2{
     text-align: left;
-    margin: 0px;
-  }
-  td {
-    text-align: left;
-  } 
-
-  span {
-    font-size: 25px;
   }
 }
 .hidden{
@@ -98,24 +117,20 @@
 
   .modal_img {
     position: fixed;
-    width: 80%;
-    top :5px;
-    margin-top: 5%;
-    margin-left: 10%;
-    height: 40%;
+    top:10%;
+    left: 30px;
+    width: 150px;
   }
-  table{
-    margin: 5px;
-  }
-  td {
+  h2{
+    font-size: 20px;
     text-align: left;
   }
   #title{
     position: absolute;
-    top: 50%;
-    left: 5px;
+    top: 10%;
+    left: 50%;
     margin-top:1px;
-    max-height:59px;
+    max-height:130px;
     overflow:hidden;
     vertical-align:top;
     text-overflow: ellipsis;
@@ -125,23 +140,23 @@
   }
   #author{
     position: absolute;
-    top: 60%;
-    left: 5px;
+    top: 30%;
+    left: 50%;
   }
   #publication{
     position: absolute;
-    top:70%;
-    left: 5px;
+    top:55%;
+    left: 10%;
   }
   #sametitle{
     position: absolute;
-    top: 80%;
-    left: 5px;
+    top: 70%;
+    left: 30%;
   }
   #Cstate{
     position: absolute;
-    top: 90%;
-    left: 5px;
+    top: 85%;
+    left: 10%;
   }
 }
 @media ( max-width: 321px ) {
@@ -184,10 +199,9 @@
 
   .modal_img {
     position: fixed;
-    width: 50%;
-    margin-top: 5px;
-    margin-left: 5px;
-    height: 30%;
+    top:10%;
+    left: 30px;
+    width: 150px;
   }
   h2{
     font-size: 20px;
@@ -198,13 +212,6 @@
     top: 10%;
     left: 60%;
     margin-top:1px;
-    overflow:hidden;
-    max-height:139px;
-    vertical-align:top;
-    text-overflow: ellipsis;
-    word-break:break-all;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:6
   }
   #author{
     position: absolute;

@@ -66,7 +66,7 @@ function Modal(props) {
           </tr>
           <tr>
             <td>
-              <h3 id="Cstate">
+              <h3 >
                 <span>대출 여부 - </span> &nbsp;
                 {props.id.branchVolumes === undefined
                   ? "관련 정보가 없습니다."
