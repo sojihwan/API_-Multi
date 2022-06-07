@@ -108,11 +108,10 @@
   table{
     margin: 5px;
   }
-
+  
   td {
     text-align: left;
   }
-  
   #title{
     position: absolute;
     top: 50%;
@@ -126,32 +125,27 @@
     -webkit-box-orient:vertical;
     -webkit-line-clamp:6
   }
-  
   #author{
     position: absolute;
     top: 60%;
     left: 5px;
   }
-  
   #publication{
     position: absolute;
     top:70%;
     left: 5px;
   }
-  
   #sametitle{
     position: absolute;
     top: 80%;
     left: 5px;
   }
-  
   #Cstate{
     position: absolute;
     top: 90%;
     left: 5px;
   }
 }
-
 @media ( max-width: 321px ) {
   #modal_overLay{
     position: fixed;
@@ -214,28 +208,25 @@
     -webkit-box-orient:vertical;
     -webkit-line-clamp:6
   }
- 
   #author{
     position: absolute;
     top: 55%;
     left: 5px;
   }
- 
   #publication{
     position: absolute;
     top:65%;
     left: 5px;
   }
- 
   #sametitle{
     position: absolute;
     top: 75%;
     left: 5px;
   }
-  
   #Cstate{
     position: absolute;
     top: 85%;
     left: 5px;
   }
+
 }
