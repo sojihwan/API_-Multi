@@ -71,7 +71,7 @@ function Modal(props) {
                 {props.id.branchVolumes === undefined
                   ? "관련 정보가 없습니다."
                   : props.id.branchVolumes.length === 0
-                  ? "관련 정보가 없습니다."
+                  ? "관련 정보가 없습니다."S
                   : props.id.branchVolumes[0].cState}
               </h3>
             </td>
